@@ -1,0 +1,36 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+LANGUAGE="en";
+CREATION-DATE="20180412 22:23";
+DECIMALS=0;
+SHOWDECIMALS=0;
+MATRIX="VSA08";
+SUBJECT-AREA="Census of Population";
+SUBJECT-CODE="A01";
+TITLE="Deaths Occuring (Number) by Age at Death, Cause of Death, Sex and Year";
+CONTENTS="Deaths Occuring (Number)";
+UNITS="Number";
+STUB="Age at Death","Cause of Death","Sex";
+HEADING="Year";
+VALUES("Age at Death")="All ages";
+VALUES("Cause of Death")="A00 Cholera";
+VALUES("Sex")="Male","Female";
+VALUES("Year")="2013","2014","2015";
+CODES("Age at Death")="-";
+CODES("Cause of Death")="A00";
+CODES("Sex")="1","2";
+CODES("Year")="2013","2014","2015";
+DOMAIN("Age at Death")="VSAGE";
+DOMAIN("Cause of Death")="ICDCODE";
+DOMAIN("Sex")="DBSEX";
+LAST-UPDATED="20171101 14:21";
+SOURCE="www.cso.ie/VSA08";
+DATABASE="StatBank Ireland";
+REFPERIOD=" ";
+BASEPERIOD=" ";
+NOTE="<a href= http://www.cso.ie/en/methods/birthsdeathsandmarriages/deathregistrati"
+"on/>See Background Notes</a> ";
+DATA=
+0 0 
+0 0 
+0 0;

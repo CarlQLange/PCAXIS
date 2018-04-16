@@ -1,0 +1,49 @@
+CHARSET="ANSI";
+AXIS-VERSION="2006";
+LANGUAGE="en";
+CREATION-DATE="20180413 21:29";
+DECIMALS=2;
+SHOWDECIMALS=2;
+MATRIX="RIA02";
+SUBJECT-AREA="Census of Population";
+SUBJECT-CODE="A01";
+TITLE="RTB Average Monthly Rent Report (Euro) by Location, Property Type,"
+"Number of Bedrooms and Year";
+CONTENTS="RTB Average Monthly Rent Report (Euro)";
+UNITS="Euro";
+STUB="Location","Property Type","Number of Bedrooms";
+HEADING="Year";
+VALUES("Location")="Carlow Town";
+VALUES("Property Type")="Terrace house","Apartment";
+VALUES("Number of Bedrooms")="Two bed","Three bed";
+VALUES("Year")="2016","2017";
+CODES("Location")="110200";
+CODES("Property Type")="03","04";
+CODES("Number of Bedrooms")="02","03";
+CODES("Year")="2016","2017";
+DOMAIN("Location")="PRLOC";
+DOMAIN("Property Type")="PRHSE";
+DOMAIN("Number of Bedrooms")="PRBED";
+LAST-UPDATED="20170830 12:00";
+SOURCE="www.cso.ie/RIA02";
+DATABASE="StatBank Ireland";
+REFPERIOD=" ";
+BASEPERIOD=" ";
+NOTE="Note: Location selection is based on population and dataset size.A nil retur"
+"n (0.00) indicates insufficient data for that location. <br><br>Differen"
+"ce between Average Rents and Standardised Rents<br>The Average Rents Dataset"
+" contains average rents being paid for particular time periods for five differ"
+"ent categories of dwelling types in 446 locations throughout the country. The "
+"dataset is useful for checking the actual rent being paid for, say, a semi-det"
+"ached house or a two-bed apartment in an area.<br>However average rent chang"
+"es if the mix of properties rented changes, therefore there is a need to mix–a"
+"djust to get a standardised rent. <br><br>The Standardised Rent (see the <a "
+"href=https://onestopshop.rtb.ie/research/ar>Rent Index</a> for more details) i"
+"s a mix-adjusted rent i.e. a measure of rents that takes account of the changi"
+"ng mix of properties rented in different time periods. <br>The key point of "
+"the standardised index is that it takes into account the changing mix of prope"
+"rties rented in different time periods, whereas the average rents on their own"
+" do not.  ";
+DATA=
+0.00 633.25 642.96 677.34 
+591.56 632.45 634.90 715.60;
